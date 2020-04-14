@@ -39,19 +39,19 @@ for url in array:
     for link in aTag:
         come=(link.get_text().split('｜'))
         num = int(re.sub("\\D", "", come[2]))
-        
+
         sum+=num
         #coments.append(num)
     count+=1
     print(count)
-    #print(come[0]) ページ最後の日にち
+
     dict[nameT]=sum
     time.sleep(5)
     """
     if count==5:
         break
     """
-    
+
 print()
 
 f=open("test.txt","w")
