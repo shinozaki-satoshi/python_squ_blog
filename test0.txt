@@ -1,0 +1,1 @@
+ create table comments(id int primary key auto_increment, name text, countCome int);
