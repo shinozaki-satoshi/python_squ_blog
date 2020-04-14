@@ -15,6 +15,7 @@ this is a program that conbinaes specialized scraping with SQL
 
 -----------Details---------------
 command(in sql server and use someone database:"mysql> " this condition)
+0.mysql.server start
 1.sorce test0.txt
 2.sorce test.txt
 (you should handle the files with drugs)
