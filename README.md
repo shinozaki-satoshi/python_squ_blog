@@ -16,11 +16,14 @@ this is a program that conbinaes specialized scraping with SQL
 -----------Details---------------
 command(in sql server and use someone database:"mysql> " this condition)
 0.mysql.server start
-1.sorce test0.txt
-2.sorce test.txt
+1. mysql -uroot 
+2. show databases; → use Nogi (*Nogi)
+3. show tables;
+4.source test0.txt
+5.source test.txt
 (you should handle the files with drugs)
 
-3.bring down
+6.bring down
 SELECT*FROM comments
 ORDER BY countCome DESC;
 # Features
